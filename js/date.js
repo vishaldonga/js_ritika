@@ -1,5 +1,6 @@
 console.log(Date.now()) //Return current timestamp
 
+
 //Time Object
 const now = new Date();
 console.log(now)

@@ -29,6 +29,7 @@ console.log(Math.abs(-10))
 console.log(Math.sqrt(16))
 console.log(Math.pow(3, 3))
 
+export const BINARY = '01'
    //{
     //     "amount": "100",
     //     "vat": "10",
