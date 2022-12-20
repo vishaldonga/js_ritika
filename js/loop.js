@@ -70,4 +70,45 @@ console.log(newArray)
 //i=0 stringArray[0]="Finland" x = "FINLAND" newArray=["FINLAND"]
 //i=1 stringArray[1]="Sweden" x = "SWEDEN" newArray=["FINLAND","SWEDEN"]
 
+//WHILE LOOP(Not important)
+// while(condition) {
+// }
+let i = 1;
+while(i < 0) {
+    console.log(i)
+    i = i +2;
+}
+// 1 2 3 4 5
+
+//DO WHILE
+let i2 = 1;
+//do {
+//} while(condition)
+do {
+    console.log(i2)
+    i2 = i2 +2;
+} while(i2 < 0)
+
+//FOR LOOP ALTERNATIVES
+//for of loop => no need of index
+const stringArray2 = ["Finland", "Sweden", "Denmark", "Norway"]
+//for(const/let var of arrayName)
+for (let i = 0; i < stringArray.length; i++) {
+    console.log(stringArray[i])
+}
+for (const element of stringArray2) {
+    console.log(element)
+}
+
+//for in loop(Works in object(Not for array))
+const obj = {
+    name: 'Vishal',
+    age: 25,
+    adress: 'India',
+    state: 'GJ',
+    city: 'ST'
+}
+for (const key in obj) {
+    console.log(key, obj[key])
+}
 
