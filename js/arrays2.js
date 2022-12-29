@@ -81,6 +81,8 @@ const ages = [32, 33, 16, 40, 12, 33, 3, 7];
 const filteredItem = ages.filter((element) => {
     return element >= 18
 })
+
+const filteredItem2 = ages.filter((element) => element >= 18)
 console.log(filteredItem)
 
 //Map Function
